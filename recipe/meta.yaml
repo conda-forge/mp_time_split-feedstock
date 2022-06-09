@@ -13,7 +13,7 @@ build:
   entry_points:
     - mp_time_split = mp_time_split.core:run
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   noarch: python
 
 requirements:

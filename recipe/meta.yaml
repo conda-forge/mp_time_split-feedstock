@@ -37,6 +37,12 @@ test:
   requires:
     - pip
 
+outputs:
+  - name: mp-time-split
+    requirements:
+      run:
+        - {{ name }} {{ version }}
+
 about:
   home: https://github.com/sparks-baird/mp-time-split
   summary: Use Materials Project time-splits for generative modeling benchmarking.
